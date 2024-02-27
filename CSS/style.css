@@ -1,0 +1,333 @@
+/* Define a fonte e o espaçamento padrão para o corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    /* Define a fonte */
+    margin: 0;
+    /* Remove margem padrão */
+    padding: 0;
+    /* Remove preenchimento padrão */
+    background-color: #f4f4f4;
+    /* Cor de fundo */
+}
+
+/* Estilo para o cabeçalho */
+.header {
+    background-color: rgba(4, 53, 93, 0.5);
+    /* Cor de fundo */
+    color: #fff;
+    /* Cor do texto */
+    padding: 0px 0;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Alinhamento do texto */
+    height: 0px;
+    /* Altura do cabeçalho */
+}
+
+/* Estilo para a barra de navegação */
+.navbar {
+    background-color: rgba(4, 53, 93, 0.5);
+    /* Cor de fundo */
+    color: #fff;
+    /* Cor do texto */
+    padding: 5px 0;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Alinhamento do texto */
+}
+
+/* Estilo para os itens do menu */
+.menu {
+    display: inline-block;
+    /* Exibe os itens em linha */
+    margin-right: 20px;
+    /* Espaçamento à direita */
+    border-radius: 10px;
+    /* Borda arredondada */
+    padding: 5px 10px;
+    /* Espaçamento interno */
+    background-color: rgba(4, 53, 93, 0.4);
+    /* Cor de fundo */
+    margin-top: 10px;
+    /* Espaçamento acima */
+}
+
+.menu a {
+    color: #fff;
+    /* Cor do texto */
+    text-decoration: none;
+    /* Remove sublinhado dos links */
+    padding: 5px 5px;
+    /* Espaçamento interno dos links */
+}
+
+/* Estilo para o ícone do menu */
+.menu-icon {
+    font-size: 20px;
+    /* Tamanho do ícone */
+    margin-right: 5px;
+    /* Espaçamento à direita do ícone */
+}
+
+.menu a:hover {
+    background-color: rgba(4, 53, 93, 0.3);
+    /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo para o segundo tipo de menu */
+.menu2 {
+    display: inline-block;
+    /* Exibe os itens em linha */
+    margin-right: 10px;
+    /* Espaçamento à direita */
+    border-radius: 10px;
+    /* Borda arredondada */
+    padding: 10px 0px;
+    /* Espaçamento interno */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Cor de fundo */
+    font-size: 2.0em;
+    /* Tamanho do texto */
+    text-align: center;
+    /* Centraliza o texto */
+    font-weight: bold;
+    /* Define o texto em negrito */
+    margin-top: 0;
+    /* Adiciona um espaçamento acima do menu */
+
+    top: 0;
+    /* Define a distância do topo da página */
+    left: 0;
+    /* Define a distância da esquerda da página */
+    width: 95%;
+    /* Define a largura do menu */
+    height: 50px;
+    /* Define a altura do menu */
+    z-index: 1000;
+    /* Define a ordem de empilhamento */
+}
+
+.menu2 a {
+    color: #fff;
+    /* Cor do texto */
+    text-decoration: none;
+    /* Remove sublinhado dos links */
+    margin-top: 15px;
+    /* Espaçamento acima */
+}
+
+/* Estilo para os links dos menus */
+
+
+/* Estilo para a barra lateral fixa */
+.sidebar {
+    position: left;
+    /* Fixa a barra lateral à esquerda da tela */
+    left: 0;
+    /* Posiciona a barra lateral no lado esquerdo da tela */
+    top: 121px;
+    /* Distância entre o topo da página e o topo da barra lateral */
+    width: 155px;
+    /* Largura da barra lateral */
+    background-color: rgba(4, 53, 93, 0.5);
+    /* Cor de fundo */
+    padding-top: 20px;
+    /* Espaçamento no topo da barra lateral */
+    color: #fff;
+    /* Cor do texto */
+    height: calc(100vh - 126px);
+    /* Altura da barra lateral (altura da tela menos a altura do cabeçalho e do rodapé) */
+    bottom: 0;
+    /* Distância entre a barra lateral e o rodapé */
+}
+
+/* Estilo para os módulos da barra lateral */
+.sidebar-module {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* Espaçamento abaixo de cada módulo */
+}
+
+/* Estilo para os links da barra lateral */
+.sidebar-link {
+    display: block;
+    /* Exibe os links em bloco */
+    padding: 10px 20px;
+    /* Espaçamento interno dos links */
+    text-decoration: none;
+    /* Remove sublinhado dos links */
+    color: #fff;
+    /* Cor do texto */
+    transition: background-color 0.3s;
+    /* Efeito de transição suave */
+}
+
+
+/* Estilo para o container principal */
+.container {
+    max-width: 1000px;
+    /* Largura máxima do container */
+    margin: auto;
+    /* Margem do topo (altura do cabeçalho) e da esquerda (largura da barra lateral) */
+    padding: 20px;
+    /* Espaçamento interno */
+    background-color: #fff;
+    /* Cor de fundo */
+    border-radius: 5px;
+    /* Borda arredondada */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra */
+    top: 0;
+    /* Posiciona no topo */
+    position: relative;
+    /* Adiciona posicionamento relativo */
+}
+
+/* Estilo para o título principal */
+h1 {
+    text-align: center;
+    /* Alinhamento do texto */
+    color: #0b0b0b;
+    /* Cor do texto */
+}
+
+/* Estilo para o texto principal */
+p {
+    color: #555;
+    /* Cor do texto */
+    margin-left: 100px;
+    /* Margem à esquerda */
+}
+
+/* Estilo para o rodapé */
+.footer {
+    background-color: rgba(4, 53, 93, 0.5);
+    /* Cor de fundo */
+    padding: 10px 0;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Alinhamento do texto */
+    position: relative;
+    /* Altera para posicionamento absoluto */
+    bottom: 0;
+    /* Define a distância do rodapé */
+    width: 100%;
+    /* Define a largura total */
+}
+
+.footer p {
+    color: #fff;
+    /* Cor do texto */
+}
+
+/* Estilo para o conteúdo principal */
+.content {
+    text-align: center;
+    /* Alinhamento do texto */
+    margin-bottom: 0px;
+    /* Margem abaixo */
+    margin-top: 0px;
+    /* Margem acima */
+    left: 0;
+    /* Posiciona o rodapé no lado esquerdo da tela */
+    bottom: 0;
+    /* Distância entre o rodapé e a parte inferior da tela */
+    width: 100%;
+    /* Largura do rodapé */
+}
+
+.directional-hover-button {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border: 0px solid rgba(4, 53, 93, 0.3);
+    /* Adjusted to hex value of indigo-600 */
+    padding: 8px 32px;
+    /* px-8 py-3 */
+    text-decoration: none;
+
+    /* Removes underline from links */
+    :focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(74, 98, 118, 0.5);
+        /* Example focus ring style */
+    }
+}
+
+.directional-hover-border {
+    position: absolute;
+    background-color: rgba(4, 53, 93, 0.3);
+    /* indigo-600 */
+    transition: all 0.3s ease;
+}
+
+.directional-hover-border.left {
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    left: 0;
+}
+
+.button-label {
+    position: relative;
+    display: block;
+    font-weight: 500;
+    /* font-medium */
+    color: #ffffff;
+    /* indigo-600 */
+    transition: color 0.3s ease;
+    /* Adjusted to hex value of indigo-600 */
+    font-size: 14px;
+
+}
+
+/* Hover and Active States */
+.directional-hover-button:hover .directional-hover-border.left,
+.directional-hover-button:hover .directional-hover-border.right {
+    width: 100%;
+}
+
+.directional-hover-button:hover .directional-hover-border.bottom,
+.directional-hover-button:hover .directional-hover-border.top {
+    height: 100%;
+}
+
+.directional-hover-button:hover .button-label {
+    color: #ffffff;
+    /* text-white */
+}
+
+.sidebar-link {
+    border-radius: 5px;
+    /* Raio da borda ajustado para os botões do menu lateral */
+}
+
+.sidebar {
+    position: absolute;
+    z-index: 1000;
+}
+
+.sidebar-link:hover .directional-hover-border {
+    width: calc(100% - 40px);
+    /* Largura total menos o padding dos links */
+}
+
+.directional-hover-button {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border: 0px solid #3c3b45;
+    /* Adjusted to hex value of indigo-600 */
+    padding: 8px 20px;
+    /* px-8 py-3 */
+    text-decoration: none;
+    width: 74%;
+    /* Alterado para ocupar 100% da largura */
+
+    /* Removes underline from links */
+    :focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+        /* Example focus ring style */
+    }
+}
